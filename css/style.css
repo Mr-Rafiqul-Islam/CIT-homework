@@ -1,0 +1,638 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ .container{
+    width: 880px;
+    height: 880px;
+    margin: 0 auto;
+    background: #80746B;
+    position: relative;
+    
+ }
+.chess_board{
+    width: 800px;
+    height: 800px;
+    background: #E8EDF9;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+ }
+
+ img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+ }
+ h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+ /* ==========row 1========= */
+ .a1{
+    width: 100px;
+    height: 100px;
+    background: #B7C0D8;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+ }
+
+ .b1{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    left: 100px;
+ }
+
+ .c1{
+    width: 100px;
+    height: 100px;
+    background: #B7C0D8;
+    position: absolute;
+    bottom: 0;
+    left: 200px;
+ } 
+ .d1{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    left: 300px;
+ }
+ .e1{
+    width: 100px;
+    height: 100px;
+    background: #B7C0D8;
+    position: absolute;
+    bottom: 0;
+    left: 400px;
+ }
+ .f1{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    left: 500px;
+ }
+ .g1{
+    width: 100px;
+    height: 100px;
+    background: #B7C0D8;
+    position: absolute;
+    bottom: 0;
+    left: 600px;
+ }
+ .h1{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    left: 700px;
+ }
+
+ /* ==========row 2========= */
+ .a2{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 100px;
+    left: 0;
+ }
+ .b2{
+    width: 100px;
+    height: 100px;
+    background: #B7C0D8;
+    position: absolute;
+    bottom: 100px;
+    left: 100px;
+ }
+ .c2{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 100px;
+    left: 200px;
+ }
+ .d2{
+    width: 100px;
+    height: 100px;
+    background: #B7C0D8;
+    position: absolute;
+    bottom: 100px;
+    left: 300px;
+ }
+ .e2{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 100px;
+    left: 400px;
+ }
+ .f2{
+    width: 100px;
+    height: 100px;
+    background: #B7C0D8;
+    position: absolute;
+    bottom: 100px;
+    left: 500px;
+ }
+ .g2{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 100px;
+    left: 600px;
+ }
+ .h2{
+    width: 100px;
+    height: 100px;
+    background: #B7C0D8;
+    position: absolute;
+    bottom: 100px;
+    left: 700px;
+ }
+
+ /* ==========row 3========= */
+ .a3{
+    width: 100px;
+    height: 100px;
+    background: #B7C0D8;
+    position: absolute;
+    bottom: 200px;
+    left: 0;
+ }
+ .c3{
+    width: 100px;
+    height: 100px;
+    background: #B7C0D8;
+    position: absolute;
+    bottom: 200px;
+    left: 200px;
+ }
+ .e3{
+    width: 100px;
+    height: 100px;
+    background: #B7C0D8;
+    position: absolute;
+    bottom: 200px;
+    left: 400px;
+ }
+ .g3{
+    width: 100px;
+    height: 100px;
+    background: #B7C0D8;
+    position: absolute;
+    bottom: 200px;
+    left: 600px;
+ }
+ /* ==========row 4========= */
+ .b4{
+    width: 100px;
+    height: 100px;
+    background: #B7C0D8;
+    position: absolute;
+    bottom: 300px;
+    left: 100px;
+ }
+ .d4{
+    width: 100px;
+    height: 100px;
+    background: #B7C0D8;
+    position: absolute;
+    bottom: 300px;
+    left: 300px;
+ }
+ .f4{
+    width: 100px;
+    height: 100px;
+    background: #B7C0D8;
+    position: absolute;
+    bottom: 300px;
+    left: 500px;
+ }
+ .h4{
+    width: 100px;
+    height: 100px;
+    background: #B7C0D8;
+    position: absolute;
+    bottom: 300px;
+    left: 700px;
+ }
+ /* ==========row 5========= */
+ .a5{
+    width: 100px;
+    height: 100px;
+    background: #B7C0D8;
+    position: absolute;
+    top: 300px;
+    left: 0;
+ }
+ .c5{
+    width: 100px;
+    height: 100px;
+    background: #B7C0D8;
+    position: absolute;
+    top: 300px;
+    left: 200px;
+ }
+ .e5{
+    width: 100px;
+    height: 100px;
+    background: #B7C0D8;
+    position: absolute;
+    top: 300px;
+    left: 400px;
+ }
+ .g5{
+    width: 100px;
+    height: 100px;
+    background: #B7C0D8;
+    position: absolute;
+    top: 300px;
+    left: 600px;
+ }
+ /* ==========row 6========= */
+ .b6{
+    width: 100px;
+    height: 100px;
+    background: #B7C0D8;
+    position: absolute;
+    top: 200px;
+    left:100px;
+ }
+ .d6{
+    width: 100px;
+    height: 100px;
+    background: #B7C0D8;
+    position: absolute;
+    top: 200px;
+    left:300px;
+ }
+ .f6{
+    width: 100px;
+    height: 100px;
+    background: #B7C0D8;
+    position: absolute;
+    top: 200px;
+    left:500px;
+ }
+ .h6{
+    width: 100px;
+    height: 100px;
+    background: #B7C0D8;
+    position: absolute;
+    top: 200px;
+    left:700px;
+ }
+ 
+ /* ==========row 7========= */
+
+ .a7{
+    width: 100px;
+    height: 100px;
+    background: #B7C0D8;
+    position: absolute;
+    top: 100px;
+    left: 0;
+ }
+
+ .b7{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+ }
+
+ .c7{
+    width: 100px;
+    height: 100px;
+    background: #B7C0D8;
+    position: absolute;
+    top: 100px;
+    left: 200px;
+ } 
+ .d7{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 100px;
+    left: 300px;
+ }
+ .e7{
+    width: 100px;
+    height: 100px;
+    background: #B7C0D8;
+    position: absolute;
+    top: 100px;
+    left: 400px;
+ }
+ .f7{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 100px;
+    left: 500px;
+ }
+ .g7{
+    width: 100px;
+    height: 100px;
+    background: #B7C0D8;
+    position: absolute;
+    top: 100px;
+    left: 600px;
+ }
+ .h7{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 100px;
+    left: 700px;
+ }
+
+ /* ==========row 8========= */
+ .a8{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+ }
+
+ .b8{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background: #B7C0D8;
+    top: 0;
+    left: 100px;
+ }
+
+ .c8{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 200px;
+ } 
+ .d8{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background: #B7C0D8;
+    top: 0;
+    left: 300px;
+ }
+ .e8{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 400px;
+ }
+ .f8{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background: #B7C0D8;
+    top: 0;
+    left: 500px;
+ }
+ .g8{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 600px;
+ }
+ .h8{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background: #B7C0D8;
+    top: 0;
+    left: 700px;
+ }
+
+
+/* ======Left Heading css====  */
+.box1{
+    width: 40px;
+    height: 100px;
+    position: absolute;
+    bottom: 40px;
+}
+.box2{
+    width: 40px;
+    height: 100px;
+    position: absolute;
+    bottom: 140px;
+}
+.box3{
+    width: 40px;
+    height: 100px;
+    position: absolute;
+    bottom: 240px;
+}
+.box4{
+    width: 40px;
+    height: 100px;
+    position: absolute;
+    bottom: 340px;
+}
+.box5{
+    width: 40px;
+    height: 100px;
+    position: absolute;
+    bottom: 440px;
+}
+.box6{
+    width: 40px;
+    height: 100px;
+    position: absolute;
+    bottom: 540px;
+}
+.box7{
+    width: 40px;
+    height: 100px;
+    position: absolute;
+    bottom: 640px;
+}
+.box8{
+    width: 40px;
+    height: 100px;
+    position: absolute;
+    bottom: 740px;
+}
+/* ======right Heading css====  */
+
+.rbox1{
+    width: 40px;
+    height: 100px;
+    position: absolute;
+    bottom: 40px;
+    right:0;
+}
+.rbox2{
+    width: 40px;
+    height: 100px;
+    position: absolute;
+    bottom: 140px;
+    right:0;
+}
+.rbox3{
+    width: 40px;
+    height: 100px;
+    position: absolute;
+    bottom: 240px;
+    right:0;
+}
+.rbox4{
+    width: 40px;
+    height: 100px;
+    position: absolute;
+    bottom: 340px;
+    right:0;
+}
+.rbox5{
+    width: 40px;
+    height: 100px;
+    position: absolute;
+    bottom: 440px;
+    right:0;
+}
+.rbox6{
+    width: 40px;
+    height: 100px;
+    position: absolute;
+    bottom: 540px;
+    right:0;
+}
+.rbox7{
+    width: 40px;
+    height: 100px;
+    position: absolute;
+    bottom: 640px;
+    right:0;
+}
+.rbox8{
+    width: 40px;
+    height: 100px;
+    position: absolute;
+    bottom: 740px;
+    right:0;
+}
+/* ======top Heading css====  */
+
+.ubox1{
+    height: 40px;
+    width: 100px;
+    position: absolute;
+    left: 40px;
+}
+.ubox2{
+    height: 40px;
+    width: 100px;
+    position: absolute;
+    left: 140px;
+}
+.ubox3{
+    height: 40px;
+    width: 100px;
+    position: absolute;
+    left: 240px;
+}
+.ubox4{
+    height: 40px;
+    width: 100px;
+    position: absolute;
+    left: 340px;
+}
+.ubox5{
+    height: 40px;
+    width: 100px;
+    position: absolute;
+    left: 440px;
+}
+.ubox6{
+    height: 40px;
+    width: 100px;
+    position: absolute;
+    left: 540px;
+}
+.ubox7{
+    height: 40px;
+    width: 100px;
+    position: absolute;
+    left: 640px;
+}
+.ubox8{
+    height: 40px;
+    width: 100px;
+    position: absolute;
+    left: 740px;
+}
+/* ==============lower heading=========== */
+.lbox1{
+    height: 40px;
+    width: 100px;
+    position: absolute;
+    left: 40px;
+    bottom: 0;
+}
+.lbox2{
+    height: 40px;
+    width: 100px;
+    position: absolute;
+    bottom: 0;
+    left: 140px;
+}
+.lbox3{
+    height: 40px;
+    width: 100px;
+    position: absolute;
+    bottom: 0;
+    left: 240px;
+}
+.lbox4{
+    height: 40px;
+    width: 100px;
+    position: absolute;
+    bottom: 0;
+    left: 340px;
+}
+.lbox5{
+    height: 40px;
+    width: 100px;
+    position: absolute;
+    bottom: 0;
+    left: 440px;
+}
+.lbox6{
+    height: 40px;
+    width: 100px;
+    position: absolute;
+    bottom: 0;
+    left: 540px;
+}
+.lbox7{
+    height: 40px;
+    width: 100px;
+    position: absolute;
+    bottom: 0;
+    left: 640px;
+}
+.lbox8{
+    height: 40px;
+    width: 100px;
+    position: absolute;
+    bottom: 0;
+    left: 740px;
+}
